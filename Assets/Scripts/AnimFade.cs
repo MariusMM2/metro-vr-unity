@@ -74,5 +74,6 @@ public class AnimFade : MonoBehaviour
     {
         enabled = false;
         timer = 0f;
+        gameObject.SetActive(false);
     }
 }
