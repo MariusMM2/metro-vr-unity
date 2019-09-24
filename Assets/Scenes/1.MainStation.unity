@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6020145, g: 0.6024088, b: 0.58866, a: 1}
+  m_IndirectSpecularColor: {r: 0.42276838, g: 0.41973025, b: 0.39176667, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -679,7 +679,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Information goes here
+  m_Text: 'Wellcome.
+
+    Move your head around to interact with the different elements.
+
+    Eksplore the history of the metro in the Timeline station, or go to the Informetion
+    station where you can see a video of the arceological founds, or you can find
+    different informations about the metro.'
 --- !u!222 &1176220968
 CanvasRenderer:
   m_ObjectHideFlags: 0
