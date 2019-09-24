@@ -482,71 +482,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 572501853}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &745369276
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 745369278}
-  - component: {fileID: 745369277}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!328 &745369277
-VideoPlayer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 745369276}
-  m_Enabled: 1
-  m_VideoClip: {fileID: 0}
-  m_TargetCameraAlpha: 1
-  m_TargetCamera3DLayout: 0
-  m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 0}
-  m_TimeReference: 0
-  m_TargetMaterialRenderer: {fileID: 0}
-  m_TargetMaterialProperty: _MainTex
-  m_RenderMode: 2
-  m_AspectRatio: 2
-  m_DataSource: 0
-  m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
-  m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
-  m_Looping: 0
-  m_WaitForFirstFrame: 1
-  m_FrameReadyEventEnabled: 0
---- !u!4 &745369278
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 745369276}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &755924409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -859,7 +794,7 @@ PrefabInstance:
     - target: {fileID: 8696433786025525710, guid: 6a6f64849661bd94eb00c487e8033d36,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8696433786025525710, guid: 6a6f64849661bd94eb00c487e8033d36,
         type: 3}
@@ -1241,7 +1176,7 @@ GameObject:
   - component: {fileID: 1554334500}
   - component: {fileID: 1554334498}
   m_Layer: 5
-  m_Name: c
+  m_Name: VideoPlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1416,9 +1351,9 @@ RectTransform:
   m_Children:
   - {fileID: 1499975669}
   - {fileID: 572501854}
-  - {fileID: 1093246637}
-  - {fileID: 1765600880}
   - {fileID: 2048576462}
+  - {fileID: 1765600880}
+  - {fileID: 1093246637}
   m_Father: {fileID: 511377661}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1689,6 +1624,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ContainerVideo4
       objectReference: {fileID: 0}
+    - target: {fileID: 8696433786025525711, guid: 6a6f64849661bd94eb00c487e8033d36,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8696433786025525710, guid: 6a6f64849661bd94eb00c487e8033d36,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1794,11 +1734,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4410585557222749845, guid: 6a6f64849661bd94eb00c487e8033d36,
-        type: 3}
-      propertyPath: m_Texture
-      value: 
-      objectReference: {fileID: 8400000, guid: 69b2a2fb8a91c86459eaae6f4bad3de6, type: 2}
     - target: {fileID: 5930946455213168285, guid: 6a6f64849661bd94eb00c487e8033d36,
         type: 3}
       propertyPath: m_TargetTexture
@@ -1909,6 +1844,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ContainerVideo5
       objectReference: {fileID: 0}
+    - target: {fileID: 8696433786025525711, guid: 6a6f64849661bd94eb00c487e8033d36,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8696433786025525710, guid: 6a6f64849661bd94eb00c487e8033d36,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1947,7 +1887,7 @@ PrefabInstance:
     - target: {fileID: 8696433786025525710, guid: 6a6f64849661bd94eb00c487e8033d36,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8696433786025525710, guid: 6a6f64849661bd94eb00c487e8033d36,
         type: 3}
@@ -2014,11 +1954,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4410585557222749845, guid: 6a6f64849661bd94eb00c487e8033d36,
-        type: 3}
-      propertyPath: m_Texture
-      value: 
-      objectReference: {fileID: 8400000, guid: 837d18779117025489b21a6641ce2125, type: 2}
     - target: {fileID: 5930946455213168285, guid: 6a6f64849661bd94eb00c487e8033d36,
         type: 3}
       propertyPath: m_TargetTexture
