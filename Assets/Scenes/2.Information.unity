@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 7e088f4c20d5e204486d374421378125, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 56b59a5cfb0a27a43b0d5cab05ffcde7, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4847688, g: 0.47011173, b: 0.43376872, a: 1}
+  m_IndirectSpecularColor: {r: 0.41669995, g: 0.41358906, b: 0.4021409, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -572,7 +572,7 @@ PrefabInstance:
     - target: {fileID: 1732337997811576406, guid: 0a45391d1e2f9d24ebf9436da06f1826,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -10
+      value: -9.9
       objectReference: {fileID: 0}
     - target: {fileID: 1732337997811576406, guid: 0a45391d1e2f9d24ebf9436da06f1826,
         type: 3}
@@ -892,7 +892,7 @@ PrefabInstance:
     - target: {fileID: 1732337997811576406, guid: 0a45391d1e2f9d24ebf9436da06f1826,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 10
+      value: 9.9
       objectReference: {fileID: 0}
     - target: {fileID: 1732337997811576406, guid: 0a45391d1e2f9d24ebf9436da06f1826,
         type: 3}
@@ -1238,11 +1238,11 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622867778}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: c24bcf9322b62454dbc926996e5d62af, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: f90d9dbab8f8b3b4d835d3db03e66e2e, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: 8c97352c5067dbd4a8cf15e49a228f82, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: e6adec79154589843a88616877696145, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
@@ -1282,7 +1282,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: 8c97352c5067dbd4a8cf15e49a228f82, type: 2}
+  m_Texture: {fileID: 8400000, guid: e6adec79154589843a88616877696145, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
