@@ -927,26 +927,16 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'WELCOME PLAYER
-
-
-    Movement instructions:
-
-    Move your head around to interact with the different elements.
-
-
-    Content:
-
-    Eksplore the history of the metro in our Timeline station
-
-    Explore the Informetion station where you can learn more about the arceological
-    founds and learn other different information about the metro.'
+  m_Text: "\n\nWELCOME \n\nMovement instructions:\n\nUse the focus point in the center
+    of your view to interact with the environment.\nMove your head to look around.\n\nContent:\n\nWatch
+    the history of the metro in the Timeline station(To your left). \nLearn more about
+    the arceological finds in the Informetion station(To your right). "
 --- !u!222 &1176220968
 CanvasRenderer:
   m_ObjectHideFlags: 0
