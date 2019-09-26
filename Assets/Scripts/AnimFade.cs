@@ -25,6 +25,16 @@ public class AnimFade : MonoBehaviour
 
     private float timer;
 
+    private void Awake()
+    {
+        if (GameState.Instance != null && !GameState.Instance.isFirstGameScene)
+        {
+            Disable();
+            Debug.Log("disabling");
+        }
+        
+    }
+
     private void Start()
     {
         colorsStart = new Color[] { };
@@ -61,6 +71,7 @@ public class AnimFade : MonoBehaviour
     {
         if (renderers.Length == 0 || timer > duration)
         {
+            GameState.Instance.isFirstGameScene = false;
             Disable();
             return;
         }
